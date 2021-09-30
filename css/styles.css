@@ -3,15 +3,14 @@
 :root
 {
 --main1: #303434;
---main2: #008080;
+--main2: #72d0e7;
 --main3: #FFFAFA;
---main4: #65cee6;
+--main4: #0db7dd;
 }
 
-li, a, button{
+li, a{
     font-family: 'Grand Hotel', cursive;
     font-weight: 500;
-    font-size: 3rem;
     color: #edf0f1;
 }
 
@@ -25,10 +24,6 @@ li, a, button{
     margin-left:30px;
 }
 
-.flexbox
-{
-   display:flex;
-}
 
 *{
     margin: 0;
@@ -47,11 +42,23 @@ li, a, button{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    transition: all 0.5s ease;
   }
 
   .topnav a:hover {
     background-color: var(--main2);
     color: var(--main3);
   }
+
+  .header {
+    height: 100vh;
+    margin-bottom: 15rem;
+    background-image: url("/images/webimage.jpg");
+    background-size: 100%, cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    position: relative;
+}
   
