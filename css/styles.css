@@ -1,4 +1,6 @@
-body
+:root
 {
-    background-color: #363B3F;
+--main1: #363B3F;
+--main2: #008080;
+--main3: #FFFAFA;
 }
