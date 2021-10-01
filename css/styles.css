@@ -32,6 +32,7 @@
 .navbar a{
     color: var(--main3);
     text-decoration: none;
+    transition: all 0.5s ease;
 }
 
 .navbar a:hover{
@@ -63,7 +64,7 @@ body {
 
 .break{
 
-    margin: 175px auto;
+    margin: 300px auto;
     border: dotted black 10px;
     border-bottom: 0;
     width: 16rem;
@@ -74,6 +75,7 @@ li, a{
     font-family: 'Grand Hotel', cursive;
     font-weight: 500;
     color: #edf0f1;
+    padding: 20px 15px;
 }
 
 .logo{
@@ -82,14 +84,12 @@ li, a{
     font-size: 35px;
     color:white;
     padding-bottom: 20px;
-    /* margin-top: 20px;
-    margin-left:30px; */
     padding-left: 15px;
 }
 
 .skill-bar h1{
     font-family: 'Grand Hotel', cursive;
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
 
 }
@@ -111,7 +111,7 @@ li, a{
 
 .about-me-heading{
     font-family: 'Grand Hotel', cursive;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
 }
 .skill-bar{
@@ -189,7 +189,7 @@ li, a{
   }
   
 
-  .header {
+  /* .header {
     width: 100%;
     height: 900px;
     background-image: url("/images/resized2.png");
@@ -197,7 +197,7 @@ li, a{
     background-repeat: no-repeat;
     background-attachment: scroll, fixed;
     position: relative;
-}
+} */
 
 .icon-details{
     text-align: center;
@@ -225,7 +225,7 @@ li, a{
 .work-container{
     width: 350px;
     background: #fff;
-    border-radius: 6px;
+     border-radius: 6px;
     padding: 20px 60px 30px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
     margin: 10% 4%;
@@ -241,8 +241,13 @@ li, a{
 }
 
 .resposive-img{
-    width: 100%;
-  height: auto;
+    width: 98.93vw;
+   height: 100vh;
+}
+
+.skills img{
+    max-width: 100%;
+    height: auto;
 }
 
 .work-container img{
@@ -258,7 +263,16 @@ li, a{
     font-family: 'Roboto', sans-serif;
 }
 
-@media all and (max-width: 484px) {
+.size-img{
+    padding: 30px;
+    width: 600px;
+}
+
+@media all and (max-width: 672px) {
+
+    .break{
+        width: 8rem;
+    }
 
     .navbar{
         flex-direction: column;
@@ -268,5 +282,14 @@ li, a{
         display: block;
     }
 
-    
+    .size-img{
+        width: 100%;
+        height: auto;
+        margin: 0px 40px;
+    }
+
+    .resposive-img{
+        
+    }
+
 }
