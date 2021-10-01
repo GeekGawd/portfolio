@@ -11,7 +11,27 @@
 }
 
 body {
-    background-color: var(--main2);
+    background-color: #9cc9de;
+}
+
+.container{
+    width: 85%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    height: auto;
+  }
+
+.break{
+
+    margin: 175px auto;
+    margin: ;
+    border: dotted black 10px;
+    border-bottom: 0;
+    width: 16rem;
+
 }
 
 li, a{
@@ -32,10 +52,19 @@ li, a{
 
 .skill-bar h1{
     font-family: 'Grand Hotel', cursive;
-    font-size: 70px;
+    font-size: 150px;
     text-align: center;
 
 }
+
+.work {
+    width: 20%;
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid rgb(202, 200, 200);
+    margin-left: 3%;
+    height: 350px;
+  }
 
 .about-me h1{
         font-family: 'Grand Hotel', cursive;
@@ -43,6 +72,11 @@ li, a{
         text-align: center;
 }
 
+.about-me-heading{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 70px;
+    text-align: center;
+}
 .skill-bar{
         display: flex; 
         flex-direction: column;
@@ -106,6 +140,8 @@ li, a{
   .aboutme-content {
     /* margin-left: 400px; */
     margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
   .aboutme-content p{
@@ -124,5 +160,15 @@ li, a{
     background-repeat: no-repeat;
     background-attachment: scroll, fixed;
     position: relative;
+}
+
+.icon-details{
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.icon-align{
+    text-align: center;
 }
   
