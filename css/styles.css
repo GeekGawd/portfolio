@@ -11,7 +11,7 @@
 }
 
 
-/* .navbar{
+.navbar{
     background-color: var(--main4);
     color: var(--main3);
     display: flex;
@@ -44,7 +44,7 @@
     height: 3px;
     background-color: white;
     margin-bottom: 4px;
-} */
+}
 
 
 body {
@@ -139,7 +139,7 @@ li, a{
     box-sizing: border-box;
 }
 
-.topnav {
+/* .topnav {
     background-color: var(--main4);
     overflow: hidden;
   }
@@ -157,7 +157,7 @@ li, a{
   .topnav a:hover {
     background-color: var(--main2);
     color: var(--main3);
-  }
+  } */
 
 
   .align-img{
@@ -258,9 +258,11 @@ li, a{
     font-family: 'Roboto', sans-serif;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 484px) {
 
-    .navbar
+    .navbar{
+        flex-direction: column;
+    }
 
     .menu {
         display: block;
