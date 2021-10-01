@@ -168,7 +168,14 @@ li, a{
     color: blueviolet;
 }
 
-.icon-align{
+.contact-details{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+.contact-details p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
 }
   
