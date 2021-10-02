@@ -241,6 +241,7 @@ li, a{
 
     .break{
         width: 8rem;
+        margin: 200px auto;
     }
 
     .navbar{
