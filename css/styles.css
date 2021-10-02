@@ -127,8 +127,9 @@ li, a{
 }
 
 .about-me-img-flex{
+    height: 25%;
     width: 25%;
-
+    align-self: center;
 }
 
 .about-me {
@@ -261,10 +262,6 @@ li, a{
         width: 100%;
         height: auto;
         margin: 0px 40px;
-    }
-
-    .resposive-img{
-        
     }
 
 }
