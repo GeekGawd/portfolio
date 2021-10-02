@@ -78,6 +78,11 @@ li, a{
     padding: 20px 15px;
 }
 
+.link{
+    color: black;
+    font-size: 25px;
+}
+
 .logo{
     font-family: 'Grand Hotel', cursive;
     font-weight: 500;
