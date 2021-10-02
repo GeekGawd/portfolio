@@ -40,13 +40,6 @@
     color: var(--main3);
 }
 
-.menu-line{
-    width: 20px;
-    height: 3px;
-    background-color: white;
-    margin-bottom: 4px;
-}
-
 
 body {
     background-color: #9cc9de;
@@ -81,6 +74,7 @@ li, a{
 .link{
     color: black;
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo{
@@ -96,17 +90,7 @@ li, a{
     font-family: 'Grand Hotel', cursive;
     font-size: 100px;
     text-align: center;
-
 }
-
-.work {
-    width: 20%;
-    display: inline-block;
-    border-radius: 12px;
-    border: 1px solid rgb(202, 200, 200);
-    margin-left: 3%;
-    height: 350px;
-  }
 
 .about-me h1{
         font-family: 'Grand Hotel', cursive;
@@ -114,7 +98,7 @@ li, a{
         text-align: center;
 }
 
-.about-me-heading{
+.heading{
     font-family: 'Grand Hotel', cursive;
     font-size: 50px;
     text-align: center;
@@ -123,7 +107,6 @@ li, a{
         display: flex; 
         flex-direction: column;
         align-items: center;
-
 }
 
 .about-me-img-flex{
@@ -199,8 +182,8 @@ li, a{
 
 .work-container{
     width: 350px;
-    background: #fff;
-     border-radius: 6px;
+    background:white;
+    border-radius: 6px;
     padding: 20px 60px 30px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
     margin: 10% 4%;
@@ -208,14 +191,8 @@ li, a{
     display: inline-block;
 }
 
-.resposive{
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: bottom;
-}
 
-.resposive-img{
+.responsive-img{
     width: 98.93vw;
    height: 100vh;
 }
@@ -252,10 +229,6 @@ li, a{
 
     .navbar{
         flex-direction: column;
-    }
-
-    .menu {
-        display: block;
     }
 
     .size-img{
